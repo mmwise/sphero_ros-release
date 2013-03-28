@@ -1,0 +1,12 @@
+Source: ros-groovy-sphero-bringup
+Section: misc
+Priority: extra
+Maintainer: Melonee Wise <melonee@meloneewise.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/sphero_bringup
+Standards-Version: 3.9.2
+
+Package: ros-groovy-sphero-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-robot-state-publisher, ros-groovy-sphero-description, ros-groovy-sphero-node, ros-groovy-urdf
+Description: sphero_bringup provides launch files for quickly bringup sphero with robot_pose_ekf and urdf
